@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgb(204, 111, 35), rgb(42, 86, 206));
+}
+.users {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+.users > .user {
+    width: 500px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,255,255, 0.3);
+}
+
+
+
+
+#user1 {
+    background-color: orangered;
+}
+#user2 {
+    background-color: orchid;
+}
+
+
+
+
+
+
+.user div {
+    display: flex;
+    width: 450px;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+.user div:nth-child(1) {
+    margin-bottom: 40px;
+}
+.user h2 {
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+.user div .userProfile {
+    height: 40px;
+    width: 250px;
+    font-size: 22px;
+    text-align: center;
+}
+.user div .userSelect {
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+}
+.apply, .restartBtn {
+    width: 100px;
+    height: 30px;
+    font-size: 19px;
+    background-color: rgb(224, 150, 13);
+    color: #fff;
+    margin-top: 20px;
+}
+
+.boxes {
+    margin-top: -40px;
+    width: 390px;
+    height: 300px;
+    background-color: rgb(29, 26, 26);
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxes > div {
+    height: 100px;
+    width: 130px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: #fff;
+}
